@@ -44,7 +44,7 @@ Click Done
 
 
 
-If you program your ESP with this sketch by filling WIFI Credentials. You will see it in the Chart.
+If you program your ESP with this sketch by filling WIFI Credentials & PC IP. You will see it in the Chart.
 
 
 For More Info Watch My Video: https://www.youtube.com/watch?v=ssz-ebdW3ss
