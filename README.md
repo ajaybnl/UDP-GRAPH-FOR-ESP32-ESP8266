@@ -57,8 +57,8 @@ Ajaybnl -at- gmail.com
 
 <br><br><br><br>
 
-<b>TIP: Use Dark Color Schemes on Arduino. More at: https://github.com/jeffThompson/DarkArduinoTheme</b><br><br>
+<b>TIP: Use Dark Color Schemes on Arduino. More at: https://github.com/ajaybnl/DarkArduinoTheme</b><br><br>
 
 
 
-<img src="https://raw.githubusercontent.com/jeffThompson/DarkArduinoTheme/master/screenshot.png"></img>
+<img src="https://camo.githubusercontent.com/f9d62ffac54e28259332a31b0057e028e64a6dce/68747470733a2f2f692e6962622e636f2f4d5074713244392f7374796c652e6a7067"></img>
