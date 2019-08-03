@@ -23,7 +23,6 @@ int printport = 8080;
 
 int chartport = 8081;
 
-int udplocalport = 3424; //no use
 
 
 WiFiUDP Udp;
@@ -80,8 +79,6 @@ You can use udpprint and udpchart both simultainously (open TelemetryViewer with
 For more Info view my videos: https://www.youtube.com/channel/UCd39IeKZOUHnexE4m2iBnhg
 
 */
-
-bool udpprint(millis());
 
 bool udpchart(analogRead(A0));
 

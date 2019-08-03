@@ -81,8 +81,6 @@ For more Info view my videos: https://www.youtube.com/channel/UCd39IeKZOUHnexE4m
 
 */
 
-bool udpprint(millis());
-
 bool udpchart(analogRead(A0));
 
 delay(1000);
