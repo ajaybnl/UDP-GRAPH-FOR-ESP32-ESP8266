@@ -44,8 +44,6 @@ void setup()
   if (WiFi.status() == WL_CONNECTED) {
     Serial.println("connected");
 
-    udp.begin(udplocalport); //8080 port
-
     Serial.printf("Client IP %s, UDP port %d\n", WiFi.localIP().toString().c_str(), udplocalport);
   } else {
     Serial.println("Cannot Connect To WIfi");
