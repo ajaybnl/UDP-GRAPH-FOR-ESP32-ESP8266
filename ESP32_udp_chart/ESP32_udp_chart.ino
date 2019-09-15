@@ -43,7 +43,7 @@ void setup()
   if (WiFi.status() == WL_CONNECTED) {
     Serial.println("connected");
 
-    Serial.printf("Client IP %s, UDP port %d\n", WiFi.localIP().toString().c_str(), udplocalport);
+    Serial.printf("Client IP %s\n", WiFi.localIP().toString().c_str());
   } else {
     Serial.println("Cannot Connect To WIfi");
   }
@@ -190,7 +190,7 @@ bool udp_write(char* text, int port) {
     Udp.begin(WiFi.localIP(), 3332);
     delay(10); //Tweak this
     if (Udp.beginPacket(udpip, port)) {
-      Udp.write(text);
+      Udp.write(text,100);
       Udp.endPacket();
       return (true);
     } else {
